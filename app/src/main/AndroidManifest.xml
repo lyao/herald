@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="org.church.volyn">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <supports-screens
+        android:smallScreens="true"
+        android:normalScreens="true"
+        android:largeScreens="false"
+        android:xlargeScreens="false"/>
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".ui.activity.MainPhoneActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:icon="@drawable/ic_launcher"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/app_id"/>
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationName"
+            android:value="@string/facebook_app_name"/>
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version"/>
+
+        <activity
+            android:name=".ui.activity.NewsPagerActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".ui.activity.CategoryDetailActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".ui.activity.NewsByCategoryPagerActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <service android:name=".downloadHelper.DownloadIntentService"/>
+        <service android:name=".media.MediaDownloaderIntentService"/>
+
+        <provider
+            android:name="com.facebook.FacebookContentProvider"
+            android:authorities="com.facebook.app.FacebookContentProvider371286389735322"
+            android:exported="true"/>
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="cb67764cfb64090c7146c14e36db131316b66a52"/>
+
+        <activity
+            android:name=".ui.activity.ShareActivity"
+            android:label="@string/title_activity_share"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.Dialog"></activity>
+
+        <activity
+            android:name=".ui.activity.GalleryActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"></activity>
+
+        <activity
+            android:name=".ui.activity.FullscreenMediaViewActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_fullscreen_image_view"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"></activity>
+    </application>
+
+</manifest>

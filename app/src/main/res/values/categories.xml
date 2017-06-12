@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="categories" >
+        <item>Служіння архієрея:bishops_ministry</item>
+        <item>Єпархіальні новини:diocesan_news</item>
+        <item>Новини з благочинь:deaneries_news</item>
+        <item>Соціальне служіння:social_activity</item>
+        <item>Діяльність молодіжних організацій:activities_of_youth_organizations</item>
+        <item>Публікації та аналітика:publications</item>
+
+        <item>Дітям потрібна допомога:children_need_help</item>
+        <item>Оголошення:advertisement</item>
+
+    </string-array>
+
+</resources>

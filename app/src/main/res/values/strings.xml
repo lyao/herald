@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Волинь православна</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Налаштування</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_fragment">FragmentActivity</string>
+    <string name="bishops_ministry">Служіння архієрея</string>
+    <string name="diocesan_news">Єпархіальні новини</string>
+    <string name="deaneries_news">Новини з благочинь</string>
+    <string name="social_activity">Соціальне служіння</string>
+    <string name="activities_of_youth_organizations">Діяльність молоді</string>
+    <string name="publications">Публікації та аналітика</string>
+    <string name="tv_grace_font">Благодатна купель</string>
+    <string name="tv_volyn_bells">Дзвони Волині</string>
+    <string name="radio_spiritual_land_mark">Духовні орієнтири</string>
+    <string name="radio_orthodox_word">Православне слово</string>
+    <string name="children_need_help">Дітям потрібна допомога</string>
+    <string name="advertisement">Оголошення</string>
+    <string name="video_news">Новина з ВІДЕО</string>
+    <string name="app_short_name">Церковні Новини</string>
+    <string name="title_activity_category_detail">Категорія заголовок</string>
+    <string name="facebook_app_name">orthodox</string>
+    <string name="splash_screen_bottom_text">&#169;2016 Волинська єпархія УПЦ</string>
+
+    <string name="warning">Зверніть увагу</string>
+    <string name="no_internet_connection">Відсутнє з\'єднання з мережею Інтернет</string>
+    <string name="no_internet_connection_check_and_apdate">Відсутнє з\'єднання з мережею Інтернет\n
+        Перевірте налаштування та оновіть сторінку</string>
+
+    <string name="gallery_of">з</string>>
+    <string name="gallery_title">Фоторепортаж</string>
+    <string name="gallery_downlaoding_info">Завантаження фото</string>
+    <!--tabs -->
+    <string name="news">Новини</string>
+    <string name="categories">Рубрики</string>
+    <string name="media">Медіа</string>
+
+    <string name="app_id">371286389735322</string>
+
+    <string name="title_activity_share">ShareActivity</string>
+
+    <string name="title_activity_fullscreen_image_view">FullscreenImageViewActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+</resources>

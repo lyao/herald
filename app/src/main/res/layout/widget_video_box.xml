@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/video_box"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:background="@android:color/black">
+
+    <ImageView
+        android:id="@+id/video_close_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/btn_close"/>
+
+    <TextView
+        android:id="@+id/media_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignBottom="@id/video_close_button"
+        android:layout_alignTop="@id/video_close_button"
+        android:layout_toLeftOf="@id/video_close_button"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp"
+        android:textColor="#ffffff"/>
+
+    <fragment
+        android:id="@+id/youtube_fragment"
+        class="org.church.volyn.ui.media.MediaPlayerFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/video_close_button"/>
+
+</RelativeLayout>

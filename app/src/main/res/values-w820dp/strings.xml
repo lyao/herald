@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Orthodox News</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_fragment">FragmentActivity</string>
+    <string name="bishops_ministry">Bishop\'s ministry</string>
+    <string name="diocesan_news">Diocesan news</string>
+    <string name="deaneries_news">News from deaneries</string>
+    <string name="social_activity">Social activity</string>
+    <string name="activities_of_youth_organizations">Activities of youth organizations</string>
+    <string name="publications">Publications</string>
+    <string name="tv_grace_font">Grace font</string>
+    <string name="tv_volyn_bells">TV program "Volyn Bells"</string>
+    <string name="radio_spiritual_guidance">Radio Spiritual guidance</string>
+    <string name="radio_orthodox_word">The Orthodox Word</string>
+    <string name="children_need_help">Children need help</string>
+    <string name="advertisement">Advertisement</string>
+    <string name="video_news">Video news</string>
+</resources>

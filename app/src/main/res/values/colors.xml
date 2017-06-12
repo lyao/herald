@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="grey" type="color">#FFDDDDDD</item>
+    <item name="toolbar_border" type="color">#bfbebe</item>
+    <item name="black" type="color">#000000</item>
+    <item name="windowBackgroundColor" type="color">#ffffffff</item>
+    <item name="accentColor" type="color">#ff0000ff</item>
+    <item name="categoryTitleColor" type="color">#4574b6</item>
+
+    <color name="black_overlay">#66000000</color>
+
+</resources>

@@ -1,0 +1,10 @@
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+    <item android:padding="40dp" android:drawable="@drawable/thumb_photo_loading_0" android:duration="200"  />
+    <item android:padding="40dp" android:drawable="@drawable/thumb_photo_loading_1" android:duration="200" />
+    <item android:padding="40dp" android:drawable="@drawable/thumb_photo_loading_2" android:duration="200" />
+    <item android:padding="40dp" android:drawable="@drawable/thumb_photo_loading_3" android:duration="200" />
+    <item android:padding="40dp" android:drawable="@drawable/thumb_photo_loading_4" android:duration="200" />
+    <item android:padding="40dp" android:drawable="@drawable/thumb_photo_loading_5" android:duration="200" />
+    <item android:padding="40dp" android:drawable="@drawable/thumb_photo_loading_7" android:duration="200" />
+</animation-list>

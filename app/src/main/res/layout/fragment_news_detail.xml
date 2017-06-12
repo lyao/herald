@@ -1,0 +1,96 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/windowBackgroundColor"
+    android:scrollbars="none"
+    tools:context="org.church.volyn.ui.fragment.NewsDetailFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/windowBackgroundColor"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical"
+        tools:context="org.church.volyn.ui.fragment.NewsDetailFragment">
+
+        <TextView
+            android:id="@+id/news_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="15dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:textColor="@color/black"
+            android:textSize="21sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!--<ViewStub-->
+                <!--android:id="@+id/video_thumbnail_stub"-->
+                <!--android:inflatedId="@+id/video_thumbnail"-->
+                <!--android:layout="@layout/view_youtube_thumbnail"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content" />-->
+
+            <ImageView
+                android:id="@+id/youtube_play"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:src="@drawable/ic_youtube"
+                android:visibility="gone"/>
+
+            <ImageView
+                android:id="@+id/news_front_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp" />
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/black_overlay"
+                android:layout_marginRight="8dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true" >
+
+                <ImageView
+                    android:id="@+id/icon_gallery"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_gallery" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="8dp"
+                android:background="@color/black_overlay">
+
+                <ImageView
+                    android:id="@+id/icon_video_play"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_video_play" />
+            </FrameLayout>
+
+        </RelativeLayout>
+
+        <WebView
+            android:id="@+id/webView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="270dp"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingBottom="5dp"
+    android:paddingTop="5dp"
+    android:weightSum="1">
+
+    <FrameLayout
+        android:id="@+id/youtube_thumbnail_container"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_weight="0.65"
+        android:background="@color/grey">
+
+        <com.google.android.youtube.player.YouTubeThumbnailView
+            android:id="@+id/youtube_thumbnail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/icon_embed_video" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/media_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/youtube_thumbnail_container"
+        android:layout_alignTop="@id/youtube_thumbnail_container"
+        android:layout_gravity="center_vertical"
+        android:layout_toRightOf="@id/youtube_thumbnail_container"
+        android:layout_weight="0.35"
+        android:textColor="@android:color/black" />
+
+</LinearLayout>
